@@ -49,7 +49,7 @@ print("  X P(X=x) Obs.Fr  Ex.Fre   xi ")
 print("----------------------------------")
 for x in range(7):
     c=math.factorial(n)/(math.factorial(x)*math.factorial(n-x))
-    Pr.append(c*p*x*q*(n-x))
+    Pr.append(c*p**x*q**(n-x))
     E.append(Pr[x]*N)
     xi.append((f[x]-E[x])**2/E[x])
     print("%2.2f %2.2f  %4.2f   %3.2f  %3.2f"%(x,Pr[x],f[x],E[x],xi[x]))
@@ -66,7 +66,7 @@ else:
 ```
 
 # Output:
-![exp1O](https://user-images.githubusercontent.com/77089743/166288076-ca6967a0-1284-4045-8051-727e336b3892.PNG)
+![Exp1_output](https://user-images.githubusercontent.com/77089743/168960020-13229ca6-02c6-4f62-ad67-6b55a38252b8.PNG)
 
 
 # Results: 
