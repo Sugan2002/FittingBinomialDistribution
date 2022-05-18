@@ -29,6 +29,10 @@ The following are criteria for a frequency distribution to be a binomial distrib
  </br>
  </br>
  </br>
+ </br>
+ </br>
+ </br>
+ </br>
  
 # Procedure :
 
